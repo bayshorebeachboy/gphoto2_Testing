@@ -1,0 +1,20 @@
+'ffmpeg -f image2 -r 1 -i /Users/Neal/Documents/gphoto2_testing/ForMovie/IMG_%03d.jpg -vcodec mpeg4 -y /Users/Neal/Documents/gphoto2_testing/ForMovie/test.mov'
+
+ffmpeg -f image2 -r 1 -s 3072x2304 -i /Users/Neal/Documents/gphoto2_testing/ForMovie/IMG_%03d.jpg -vcodec libx264 -crf 10 -pix_fmt yuv420p -y /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4
+
+
+ffmpeg -f image2 -r 1 -i /Users/Neal/Documents/gphoto2_testing/ForMovie/IMG_%03d.jpg -vcodec libx264 -crf 10 -y /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mkv
+
+
+-f image2 -r 1 -s 3072x2304 -i /Users/Neal/Documents/gphoto2_testing/ForMovie/IMG_%03d.jpg 
+
+-vcodec libx264 -crf 10 -pix_fmt yuv420p -y /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4
+
+https://www.dropbox.com/sh/5jzlptg3w1gcicw/AADkdTSClgqoV3QfH1NRPdTha?dl=0
+https://www.dropbox.com/s/0qrf1f9eg4jbs8h/test.mp4?dl=0
+
+GET 'acc?access_token=<ya29.GlxBBS89x1SQ89cxesu124YvJsmCGWjtZU0dwxahWm-rciGFoipsfAOTJjEoUrEBX3cPqEMpbX5z5_Vvh55s-kaK8g_-GlE3-wiBBGSSNtHs8zC4y2F5LGKUExUjZA>&part=snippet&mine=true
+
+
+DropBox link to WeatherMovie folder
+https://www.dropbox.com/sh/5jzlptg3w1gcicw/AADkdTSClgqoV3QfH1NRPdTha?dl=0

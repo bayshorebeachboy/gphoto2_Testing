@@ -1,0 +1,13 @@
+Neals-iMac:~ Neal$ gphoto2 --capture-image-and-download --filename '/Users/Neal/Documents/gphoto2_testing/test.jpg'
+New file is in location /capt0000.jpg on the camera                            
+File /Users/Neal/Documents/gphoto2_testing/test.jpg exists. Overwrite? [y|n] y
+Saving file as /Users/Neal/Documents/gphoto2_testing/test.jpg
+Deleting file /capt0000.jpg on the camera
+Neals-iMac:~ Neal$ 
+
+
+gphoto2 --camera 'Canon EOS 600D' --capture-image-and-download --filename '/Users/Neal/Documents/gphoto2_testing/test2.jpg'
+
+gphoto2 --camera 'Canon PowerShot A620 (PTP mode)' --capture-image-and-download --filename '/Users/Neal/Documents/gphoto2_testing/test2.jpg'
+
+43792

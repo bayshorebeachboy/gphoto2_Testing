@@ -1,0 +1,135 @@
+Client ID:
+810529243230-t073s7i9lqqs3hs6rkgvcrfpp9ngfsmr.apps.googleusercontent.com
+
+Client Secret:
+42CsKpNA-6Dm82aHsRVfbKaZ
+
+Authorization Code:
+4/naFy9qTqiBxPUS1D1X4nUvztu7ONKNrfbRPX-T5LLSQ
+
+Refresh Token:
+1/FePjH6YEPNb8RqjGnXKtF7IuqsUH8sArfGRTCC7CVjY
+
+Access Token:(expired)
+ya29.GltDBSPFsMJcuWerAmtNcqT1jvHsuT1yWfh4VzA4ITSrXCBnleKhi_UTyWVdTbGhl2AEl-6HrFrY55WGCm4HKbOTLqGnnetWonj3mS38zyNdEXiTa1A-UqlcP6cR
+
+Exchange Token JSON:
+{"installed":{"client_id":"810529243230-t073s7i9lqqs3hs6rkgvcrfpp9ngfsmr.apps.googleusercontent.com","project_id":"youtubeupload-191206","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://accounts.google.com/o/oauth2/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"42CsKpNA-6Dm82aHsRVfbKaZ","redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}}
+
+youtube-web
+
+Refresh Token:
+1/JYFYamTRdniLjniRCiiqBkz3w_JGz5H60QQVXu3vKW79ueBBFgJ6Z68EepqpwKqt
+
+POST /oauth2/v4/token HTTP/1.1
+Host: www.googleapis.com
+Content-length: 278
+content-type: application/x-www-form-urlencoded
+user-agent: google-oauth-playground
+
+code=4%2FmY0zZuVRyAFYE2jEN6uxwvDVzIrA45CyoQ75r6pV0_4&redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Foauthplayground&client_id=810529243230-7kgba59s05qi9b8fsqq6fcn1veo002oh.apps.googleusercontent.com&client_secret=rkUt1KbZFnenAnhqJED3XPPx&scope=&grant_type=authorization_code
+
+HTTP/1.1 200 OK
+Content-length: 287
+X-xss-protection: 1; mode=block
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Vary: Origin, X-Origin
+Server: GSE
+-content-encoding: gzip
+Pragma: no-cache
+Cache-control: no-cache, no-store, max-age=0, must-revalidate
+Date: Mon, 15 Jan 2018 06:40:26 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+Content-type: application/json; charset=UTF-8
+
+{
+  "access_token": "ya29.GltDBT8NA7qaITTCgiKWASECzOV7-6oGdv5KkYgbJXsHmhbAoIw7asIUmPV2UXZDJtEc1dhIpZgrCGIcPDeu9Su117bM_p6zsq8CURc4VlGqAA1wwih1drugahR5", 
+  "token_type": "Bearer", 
+  "expires_in": 3600, 
+  "refresh_token": "1/JYFYamTRdniLjniRCiiqBkz3w_JGz5H60QQVXu3vKW79ueBBFgJ6Z68EepqpwKqt"
+}
+
+GET /oauthplayground HTTP/1.1
+Host: developers.google.com
+Content-length: 0
+Authorization: Bearer ya29.GltDBT8NA7qaITTCgiKWASECzOV7-6oGdv5KkYgbJXsHmhbAoIw7asIUmPV2UXZDJtEc1dhIpZgrCGIcPDeu9Su117bM_p6zsq8CURc4VlGqAA1wwih1drugahR5
+
+HTTP/1.1 302 Found
+Content-length: 0
+Cache-control: no-cache
+Server: Google Frontend
+Location: https://developers.google.com/oauthplayground/
+X-cloud-trace-context: f39a3ecb3454f7262927e96ee90876d0
+Date: Mon, 15 Jan 2018 06:45:41 GMT
+Alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+Content-type: text/html; charset=utf-8
+
+API Key: AIzaSyC5_OPGyEvFGsLfmCb4GaY5kngHMTXjhdk 
+
+ya29.GlxEBT3y2SSdkc3UNCT3JMV3cnUsep7dqpn9jtZJFNCPstk0FirI8aWtxLbabbliGILm2SAroy1dbo9wE_oadiuDJeLPWCenOenSNNhQ2EZp_ZNo5T_6URIqoVsK4w
+
+
+1/21/2018
+
+POST /oauth2/v4/token HTTP/1.1
+Host: www.googleapis.com
+Content-length: 278
+content-type: application/x-www-form-urlencoded
+user-agent: google-oauth-playground
+
+code=4%2Fo9D3pTOOiErviGuarQTD4P_l9ePVpdvJte0J3pjFLLw&redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Foauthplayground&client_id=810529243230-7kgba59s05qi9b8fsqq6fcn1veo002oh.apps.googleusercontent.com&client_secret=rkUt1KbZFnenAnhqJED3XPPx&scope=&grant_type=authorization_code
+
+HTTP/1.1 200 OK
+Content-length: 266
+X-xss-protection: 1; mode=block
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Vary: Origin, X-Origin
+Server: GSE
+-content-encoding: gzip
+Pragma: no-cache
+Cache-control: no-cache, no-store, max-age=0, must-revalidate
+Date: Sun, 21 Jan 2018 02:34:42 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+Content-type: application/json; charset=UTF-8
+
+{
+  "access_token": "ya29.GltJBSOzUCqc_27VoWTH6SB8PwrXTrqXBTuwME1BaY7ZACEbkbR20YR-ZmKqWIhBoEJlTp318lGtLSjijFSFRY1cNxiFW79V6K2lmV3-UjkWjdI-RGzXy7jHkln2", 
+  "token_type": "Bearer", 
+  "expires_in": 3600, 
+  "refresh_token": "1/YT5EFbMMJNAo4OmBT20JNGzmA6znCI93sdJ2HBFhe4s"
+}
+
+
+
+
+
+curl -H "Authorization:Bearer ya29.GlxJBaJ3bhOwkkNw0too-kVYywudeCKwoAaKQCl0gCRivEkX2o_onJKupyClcpkIttD9gqjaXFxmCKJV-E0v1biuWnED8OX-FjLzRDgYKDBElE6lTPgp5EtDwEGzVg" https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true
+
+curl https://www.googleapis.com/youtube/v3/channels?part=id&mine=true&access_token=ya29.GlxJBTE5xTXGMAXM76HcQekX7-u_IZubJyf1FBtLCpn7aWx6lfr3E7lB-OBhiQW9GiQzirdQluxhef9axIDimRbw7kCVTk4Bv7tFHWRj0dUZ0PTs5uVG_1D0iBs_4g
+
+
+https://accounts.google.com/o/oauth2/v2/auth?
+ scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.readonly&
+ response_type=code&
+ state=security_token%3D138r5719ru3e1%26url%3Dhttps://oauth2.example.com/token&
+ redirect_uri=http://127.0.0.1:9004&
+ client_id=client_id
+
+
+curl https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/youtube.readonly&response_type=code&redirect_uri=http://127.0.0.1:5005&client_id=810529243230-t073s7i9lqqs3hs6rkgvcrfpp9ngfsmr.apps.googleusercontent.com
+
+curl -H "Authorization: Bearer ya29.GlxJBUKWA7OyEwnZd0MkcEkloWWqoeAOaFT0FGtJL822KU-_Jqzmn0COAItcFE_sHlnIP2THgyFd05yy78wZlyGJJCp-dbGLs1h3sixUsvF2PVcsIWIAnqqhZEFQsQ" https://www.googleapis.com/youtube/v3/channels?part=snippet&forUsername=oicl_V9nZoHgMas3xTZ_sg
+
+https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=http://127.0.0.1:5005&scope=https://www.googleapis.com/auth/youtube.readonly&client_id=810529243230-7kgba59s05qi9b8fsqq6fcn1veo002oh.apps.googleusercontent.com
+
+
+curl -H "https://www.googleapis.com/auth/youtube "Authorization: Bearer ya29.GlxJBUKWA7OyEwnZd0MkcEkloWWqoeAOaFT0FGtJL822KU-_Jqzmn0COAItcFE_sHlnIP2THgyFd05yy78wZlyGJJCp-dbGLs1h3sixUsvF2PVcsIWIAnqqhZEFQsQ"
+
+
+https://accounts.google.com/o/oauth2/auth?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=810529243230-t073s7i9lqqs3hs6rkgvcrfpp9ngfsmr.apps.googleusercontent.com&access_type=offline

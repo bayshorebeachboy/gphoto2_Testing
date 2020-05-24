@@ -1,0 +1,129 @@
+print ephem.localtime(o.next_rising(s))
+2018-01-05 07:53:42.000004
+print ephem.localtime(o.next_setting(s))
+2018-01-05 16:49:36.000004
+print(now)
+2018-01-04 19:41:27.381129
+
+if day next setting < next rising
+if night next rising < next setting
+
+
+Your project ID will be youtubeupload-191206
+
+
+OAuth Client 
+ID
+810529243230-1m6lcnr106b2lfu24mfeu8qunbbpeks8.apps.googleusercontent.com 
+Secret
+vmbo7fPtDVuOruxNN8Jfo30F 
+
+{
+  "installed": {
+    "client_id": "810529243230-1m6lcnr106b2lfu24mfeu8qunbbpeks8.apps.googleusercontent.com",
+    "client_secret": "vmbo7fPtDVuOruxNN8Jfo30F",
+    "redirect_uris": ["http://localhost:8080/oauth2callback"],
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token"
+  }
+}
+
+
+
+
+
+
+Neals-iMac:youtubeuploader Neal$ ./youtubeuploader -filename /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4
+Your browser has been opened to an authorization URL.  This program will resume once authorization has been provided.
+https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=810529243230-1m6lcnr106b2lfu24mfeu8qunbbpeks8.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=st1515136716992062000
+Uploading file '/Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4'...
+Progress:     1.09 Mbps, 63751300 / 63751300 (100.000%) ETA       0s
+Upload successful! Video ID: 9ZmEGogj7YE
+Neals-iMac:youtubeuploader Neal$ ./youtubeuploader -filename /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4
+Uploading file '/Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4'...
+Progress:   575.62 kbps, 63751300 / 63751300 (100.000%) ETA       0s
+Upload successful! Video ID: fbd9crOk8Ko
+Neals-iMac:youtubeuploader Neal$ 
+
+
+
+API key  AIzaSyBqSQnKhWPWa4mBd7BHoyK8EdZuNuDqCCc 
+810529243230-1m6lcnr106b2lfu24mfeu8qunbbpeks8.apps.googleusercontent.com
+
+https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=810529243230-s92q83lktamrf6ict6451i08pg2o3sma.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl&state=RJGp9Zg0CbGJ0L4WgD1EHiNGg71LSE&prompt=consent&access_type=offline
+
+https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=810529243230-1m6lcnr106b2lfu24mfeu8qunbbpeks8.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl&state=RJGp9Zg0CbGJ0L4WgD1EHiNGg71LSE&prompt=consent&access_type=offline
+
+
+Here is your client ID
+810529243230-s92q83lktamrf6ict6451i08pg2o3sma.apps.googleusercontent.com
+
+Here is your client secret
+I1SC3UP0FnRWW-YYdtKSC1CR
+
+
+
+https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=%5B%5B810529243230-s92q83lktamrf6ict6451i08pg2o3sma.apps.googleusercontent.com%5D%5D&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl&state=CmldWXeKdy57RWSFSgfWyll3iUXGSZ&prompt=consent&access_type=offline
+
+https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=5B810529243230-s92q83lktamrf6ict6451i08pg2o3sma.apps.googleusercontent.com%5D%5D&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.force-ssl&state=UzZORUIMkRJP58kU6urLd1PlEZbIDP&prompt=consent&access_type=offline
+
+
+
+https://www.dropbox.com/sh/v1jzibvlw61ygi7/AACul5XfE3XjxHTImljsFibla?dl=0
+https://www.dropbox.com/sh/5jzlptg3w1gcicw/AADkdTSClgqoV3QfH1NRPdTha?dl=0
+
+Neals-iMac.local
+
+
+Send this to initiate authorization 
+Presents accept screen to account owner
+
+https://accounts.google.com/o/oauth2/auth?client_id={clientid}.apps.googleusercontent.com&redirect_uri=urn:ietf:wg:oauth:2.0:oob&scope=https://www.googleapis.com/auth/analytics.readonly&response_type=code
+
+After owner accepts request loop back to requester (?)
+
+Authorization Code - used to get refresh token
+4/z11j1fIZpJfAIh9wGtg7vWYgls6rh9MFNoXTbPkl80U
+
+HTTP POST in this form - https://accounts.google.com/o/oauth2/token
+code=4/X9lG6uWd8-MMJPElWggHZRzyFKtp.QubAT_P-GEwePvB8fYmgkJzntDnaiAI&client_id={ClientId}.apps.googleusercontent.com&client_secret={ClientSecret}&redirect_uri=urn:ietf:wg:oauth:2.0:oob&grant_type=authorization_code
+
+Returns the following (in browser or listener?)
+
+{
+"access_token" : "ya29.1.AADtN_VSBMC2Ga2lhxsTKjVQ_ROco8VbD6h01aj4PcKHLm6qvHbNtn-_BIzXMw",
+"token_type" : "Bearer",
+"expires_in" : 3600,
+"refresh_token" : "1/J-3zPA8XR1o_cXebV9sDKn_f5MTqaFhKFxH-3PUPiJ4"
+}
+
+Then POST like tthis
+https://accounts.google.com/o/oauth2/token
+client_id={ClientId}.apps.googleusercontent.com&client_secret={ClientSecret}&refresh_token=1/ffYmfI0sjR54Ft9oupubLzrJhD1hZS5tWQcyAvNECCA&grant_type=refresh_token
+
+Which returns this (again where)
+{
+"access_token" : "ya29.1.AADtN_XK16As2ZHlScqOxGtntIlevNcasMSPwGiE3pe5ANZfrmJTcsI3ZtAjv4sDrPDRnQ",
+"token_type" : "Bearer",
+"expires_in" : 3600
+}
+
+
+
+
+
+Can use youtubeuploader to upload but need to delete existing video
+./youtubeuploader -filename /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4
+
+
+Neals-iMac:youtubeuploader Neal$ ./youtubeuploader -filename /Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4
+Your browser has been opened to an authorization URL.  This program will resume once authorization has been provided.
+https://accounts.google.com/o/oauth2/auth?access_type=offline&approval_prompt=force&client_id=810529243230-h4qsu0ijm3pag6ik3kss4r40t4trh4cm.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fyoutube.upload&state=st1515706643164178000
+Uploading file '/Users/Neal/Documents/gphoto2_testing/TestMovies/test.mp4'...
+Progress:   155.50 kbps, 8466175 / 8466175 (100.000%) ETA       0s
+Upload successful! Video ID: LVlqBR4otdU
+Neals-iMac:youtubeuploader Neal$ 
+
+
+
+https://www.googleapis.com/oauth2/v4/token&code=4/z11j1fIZpJfAIh9wGtg7vWYgls6rh9MFNoXTbPkl80U&client_id=810529243230-h4qsu0ijm3pag6ik3kss4r40t4trh4cm.apps.googleusercontent.com&client_secret=683poMqK5VeDeddctfWvd745&redirect_uri=127.0.0.1:5005&grant_type=authorization_code
